@@ -1,0 +1,35 @@
+{
+  "name": "react-medium",
+  "version": "0.0.1",
+  "description": "react medium component",
+  "main": "index.js",
+  "scripts": {
+  	"start": "webpack-dev-server -c --port=8888",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esportsguy/react-medium.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Wang Zuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esportsguy/react-medium/issues"
+  },
+  "homepage": "https://github.com/esportsguy/react-medium#readme",
+  "peerDependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.21.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2"
+  }
+}
