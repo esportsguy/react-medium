@@ -8,11 +8,25 @@ var Medium = require('../lib/medium');
 var App = React.createClass({
   displayName: 'App',
 
+  getInitialState() {
+    return {
+      audio: {
+        mime: 'audio/mpeg3',
+        src: 'test.mp3'
+      },
+      video: {
+        mime: 'video/mpeg',
+        src: 'test.mp4'
+      }
+    }
+  },
+
   render() {
     return (
       <div className="app">
         <h1>react-medium</h1>
-        <Medium/>
+        <Medium medium={this.state.audio}/>
+        <Medium medium={this.state.video}/>
       </div>
     );
   }
