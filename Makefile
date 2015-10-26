@@ -1,6 +1,6 @@
 all:
 	babel lib --out-dir dist
-	lessc lib/react-ui-tree.less > dist/react-ui-tree.css
+	lessc lib/medium.less > dist/medium.css
 	webpack -p
 clean:
 	rm dist/*
