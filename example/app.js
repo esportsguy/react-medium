@@ -16,7 +16,7 @@ var App = React.createClass({
       },
       video: {
         mime: 'video/mpeg',
-        src: 'test.mp4'
+        src: 'https://d301dinc95ec5f.cloudfront.net/capture/dreamhackcs-20150920202118125.shot.mp4'
       }
     }
   },
